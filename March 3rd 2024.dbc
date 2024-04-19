@@ -1,0 +1,113 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 1536 Frame_01: 8 Vector__XXX
+ SG_ rpm_S : 7|16@0- (1,0) [0|0] "rpm" Vector__XXX
+ SG_ ppsA_S : 23|16@0- (0.0122,0) [0|0] "%" Vector__XXX
+ SG_ long_G_S : 39|16@0- (0.001,0) [0|0] "G" Vector__XXX
+ SG_ gear_S : 55|16@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 1537 Frame_02: 8 Vector__XXX
+ SG_ fuelConsVolHR_S : 7|16@0- (0.001,0) [0|0] "L" Vector__XXX
+ SG_ vehicleSpeed_S : 23|16@0- (0.036,0) [0|0] "Kph" Vector__XXX
+ SG_ tcSpinTarg_S : 39|16@0- (0.0976,0) [0|0] "%" Vector__XXX
+ SG_ tcSpinErr_S : 55|16@0- (0.0976,0) [0|0] "%" Vector__XXX
+
+BO_ 1538 Frame_03: 8 Vector__XXX
+ SG_ rx01_S : 7|16@0- (1,0) [0|0] "degC" Vector__XXX
+ SG_ rx02_S : 23|16@0- (1,0) [0|0] "degC" Vector__XXX
+ SG_ rx03_S : 39|16@0- (1,0) [0|0] "degC" Vector__XXX
+ SG_ rx04_S : 55|16@0- (1,0) [0|0] "degC" Vector__XXX
+
+BO_ 1539 Frame_04: 8 Vector__XXX
+ SG_ flSpeed_S : 7|16@0- (0.036,0) [0|0] "Kph" Vector__XXX
+ SG_ frSpeed_S : 23|16@0- (0.036,0) [0|0] "Kph" Vector__XXX
+ SG_ rlSpeed_S : 39|16@0- (0.036,0) [0|0] "Kph" Vector__XXX
+ SG_ rrSpeed_S : 55|16@0- (0.036,0) [0|0] "Kph" Vector__XXX
+
+BO_ 1540 Frame_05: 8 Vector__XXX
+ SG_ bap_S : 7|16@0- (1,0) [0|0] "mBar" Vector__XXX
+ SG_ ecp_S : 23|16@0- (0.0145,0) [0|0] "PSI" Vector__XXX
+ SG_ gsp_S : 39|16@0- (0.0145,0) [0|0] "PSI" Vector__XXX
+ SG_ fan2_S : 55|16@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 1541 Frame_06: 8 Vector__XXX
+ SG_ act1_S : 7|16@0- (0.1,0) [0|0] "degC" Vector__XXX
+ SG_ eop1_S : 23|16@0- (0.001,0) [0|0] "Bar" Vector__XXX
+ SG_ egt1_S : 39|16@0- (0.1,0) [0|0] "degC" Vector__XXX
+ SG_ map1_S : 55|16@0- (0.001,0) [0|0] "Bar" Vector__XXX
+
+BO_ 1542 Frame_07: 8 Vector__XXX
+ SG_ clutchSwitch_U : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ calSwitch_U : 23|16@0+ (1,1) [0|0] "" Vector__XXX
+ SG_ tcSwitch_U : 39|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ tuneSwitch_S : 55|16@0- (1,0) [0|0] "-" Vector__XXX
+
+BO_ 1543 Frame_08: 8 Vector__XXX
+ SG_ bpf_S : 7|16@0- (0.01,0) [0|0] "Bar" Vector__XXX
+ SG_ bpr_S : 23|16@0- (0.01,0) [0|0] "Bar" Vector__XXX
+ SG_ vbat_S : 39|16@0- (0.001,0) [0|0] "Volts" Vector__XXX
+ SG_ lam1_S : 55|16@0- (0.001,0) [0|0] "CR" Vector__XXX
+
+BO_ 1544 Frame_09: 8 Vector__XXX
+ SG_ ect1_S : 7|16@0- (0.1,0) [0|0] "degC" Vector__XXX
+ SG_ tcTrq_S : 23|16@0- (0.0976,0) [0|0] "%" Vector__XXX
+ SG_ fp1_S : 39|16@0- (1,0) [0|0] "mBar" Vector__XXX
+ SG_ dip1_S : 55|16@0- (0.1,0) [0|0] "Bar" Vector__XXX
+
+BO_ 1545 Frame_10: 8 Vector__XXX
+ SG_ eot_S : 7|16@0- (0.1,0) [0|0] "degC" Vector__XXX
+ SG_ launchRpm_S : 23|16@0- (1,0) [0|0] "rpm" Vector__XXX
+ SG_ limpMode_U : 39|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ aat_S : 55|16@0- (0.1,0) [0|0] "degC" Vector__XXX
+
+BO_ 1546 Frame_11: 8 Vector__XXX
+ SG_ alternatorState_U : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ fan1_U : 23|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ vvtState_U : 39|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ paddleSwitch_U : 55|16@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1547 Frame_12: 8 Vector__XXX
+ SG_ tcSpinMltTcSw : 7|16@0- (0.0009765,0) [0|0] "" Vector__XXX
+ SG_ tcSpinAddTuneSw : 23|16@0- (0.09765,0) [0|0] "%" Vector__XXX
+ SG_ tyreTypeTcSw : 39|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ gpsTimeSecs : 55|16@0+ (1,0) [0|0] "" Vector__XXX
+
+
+
+
