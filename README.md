@@ -1,8 +1,14 @@
-The python code is run from a Raspberry Pi4 Model B, but should work on all Pi models.
-It uses python-can to send data over CAN bus using a inno-maker USB2CAN device.
-If the Race Technology Dash4Pro is the only device on the CAN bus, then you must turn Silent Mode off on the D4P otherwise this will not work. CAN requires at least one active device present for frames to be ackowledged. 
-The combe.csv file contains the run data taken from the car from the run off at Castle Combe circuit in October 2023.
-The March 3rd 2024.dbc file is the DBC file that needs loading in to the Dash4Pro to define the frames being received.
+The python code can_from_csv.py is run from a Raspberry Pi4 Model B, but should work on all Pi models.
+
+It is written around the inno-maker USB2CAN device. This device is connected to the Pi via a single USB lead.
+
+Note: If the Race Technology Dash4Pro is the only device on the CAN bus, then you must turn Silent Mode off on the D4P otherwise this will not work. CAN requires at least one active device present for frames to be ackowledged. Silent mode is turned off using the Dash4Pro designer program.
+
+combe.csv file contains the run data taken from the car from the first run off at Castle Combe circuit in October 2023.
+
+March 3rd 2024.dbc file is the DBC file that needs loading in to the Dash4Pro designer to define the frames being received.
+
+To execute the code, with the Dash4Pro connected to the USB2CAN board, and with 12V present on the Dash4Pro:
 
 run sudo python3 can_from_csv.py
 
