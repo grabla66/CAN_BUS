@@ -1,4 +1,4 @@
-The python code can_from_csv.py is run from a Raspberry Pi4 Model B, but should work on all Pi models.
+The python script, can_from_csv.py, is run from a Raspberry Pi4 Model B, but should work on all Pi models.
 
 It is written around the inno-maker USB2CAN device. This device is connected to the Pi via a single USB lead.
 
